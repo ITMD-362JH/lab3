@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Caveat&family=Indie+Flower&family=Patrick+Hand&family=Playfair+Display&display=swap');
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -192,18 +195,52 @@ img, audio, video {
 */
 
 html {
+  font-family: 'Andada Pro', serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Playfair Display', serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
 }
+h1 {
+  font-size: 1em;
+  padding: 1.5em
+}
+p {
+  font-size: 1em;
+  padding: 1.5em;
+}
+body {
+  background-color: #bfbfbf
+}
+ol {
+  background-color: #a6a6a6;
+  padding: 1em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
 
+#input-age-verification {
+  background-color: #8c8c8c;
+  padding: 1em;
+}
+
+}
 label {
   display: block;
 }
 
+.header {
+  border: 5px dashed grey;
+  background: #cccccc
+}
+
 /* ===== LAYOUT STYLES ====== */
 
-
+#content {
+  text-align: center;
+}
 /* ===== STATE STYLES ======= */
-
